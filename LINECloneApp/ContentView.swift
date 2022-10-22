@@ -8,14 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.lightGray
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            homeView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                        .resizable()
+                        .frame(width: 47, height: 44)
+                }
+            
+            Text("messageView")
+                .tabItem {
+                    Image(systemName: "message.fill")
+                        .resizable()
+                        .frame(width: 44, height: 41)
+                }
+            
+            
+            Text("call")
+                .tabItem {
+                    Image(systemName: "phone.fill")
+                        .resizable()
+                        .frame(width: 36, height: 38)
+                }
         }
-        .padding()
+        .background(Color(.red))
     }
 }
 
