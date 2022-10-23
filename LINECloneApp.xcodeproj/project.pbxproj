@@ -12,6 +12,10 @@
 		EAD9A5DE2903EE3600260B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD9A5DD2903EE3600260B81 /* Assets.xcassets */; };
 		EAD9A5E12903EE3600260B81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD9A5E02903EE3600260B81 /* Preview Assets.xcassets */; };
 		EAD9A5EA29042C4500260B81 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A5E929042C4500260B81 /* homeView.swift */; };
+		EAD9A5EC2904D76C00260B81 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A5EB2904D76C00260B81 /* MessageListView.swift */; };
+		EAD9A5EE2904D8B500260B81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A5ED2904D8B500260B81 /* User.swift */; };
+		EAD9A5F02904DAD900260B81 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A5EF2904DAD900260B81 /* UserItem.swift */; };
+		EAD9A5F22904DDC700260B81 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A5F12904DDC700260B81 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		EAD9A5DD2903EE3600260B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD9A5E02903EE3600260B81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAD9A5E929042C4500260B81 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		EAD9A5EB2904D76C00260B81 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		EAD9A5ED2904D8B500260B81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAD9A5EF2904DAD900260B81 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		EAD9A5F12904DDC700260B81 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				EAD9A5E929042C4500260B81 /* homeView.swift */,
+				EAD9A5EB2904D76C00260B81 /* MessageListView.swift */,
+				EAD9A5EF2904DAD900260B81 /* UserItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,6 +92,8 @@
 		EAD9A5E82903F2C000260B81 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EAD9A5ED2904D8B500260B81 /* User.swift */,
+				EAD9A5F12904DDC700260B81 /* Friend.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,9 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD9A5EC2904D76C00260B81 /* MessageListView.swift in Sources */,
+				EAD9A5F22904DDC700260B81 /* Friend.swift in Sources */,
 				EAD9A5DC2903EE3300260B81 /* ContentView.swift in Sources */,
 				EAD9A5DA2903EE3300260B81 /* LINECloneAppApp.swift in Sources */,
+				EAD9A5EE2904D8B500260B81 /* User.swift in Sources */,
 				EAD9A5EA29042C4500260B81 /* homeView.swift in Sources */,
+				EAD9A5F02904DAD900260B81 /* UserItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

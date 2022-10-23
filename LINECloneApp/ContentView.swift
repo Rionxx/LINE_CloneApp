@@ -21,7 +21,7 @@ struct ContentView: View {
                         .frame(width: 47, height: 44)
                 }
             
-            Text("messageView")
+            MessageListView()
                 .tabItem {
                     Image(systemName: "message.fill")
                         .resizable()
